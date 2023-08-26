@@ -1,0 +1,3 @@
+{{- /* chezmoi:modify-template */ -}}
+
+{{- fromToml .chezmoi.stdin | setValueAtPath "dirs.env.virtual" ".hatch" | toToml }}
