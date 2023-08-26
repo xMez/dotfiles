@@ -68,7 +68,7 @@ rust-packages:
 	cargo install difftastic
 	cargo install vivid
 
-pipx-install:
+pipx-packages:
 	pipx install ipython
 	pipx install hatch
 
