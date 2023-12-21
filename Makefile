@@ -88,7 +88,7 @@ endif
 
 .PHONY: dotfiles
 dotfiles:
-	chezmoi -v apply
+	chezmoi -v apply --force
 
 .PHONY: docker
 docker:
