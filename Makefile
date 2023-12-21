@@ -58,7 +58,7 @@ asdf-packages:
 	asdf plugin add python || exit 0
 	asdf install chezmoi 2.38.0
 	asdf global chezmoi 2.38.0
-	asdf install python 3.11.5
+	asdf install python 3.11.7
 
 go-packages:
 	go install github.com/jesseduffield/lazygit@latest
