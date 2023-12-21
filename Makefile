@@ -12,7 +12,6 @@ apt:
 	sudo apt install -y \
 		build-essential \
 		curl \
-		golang-go \
 		libbz2-dev \
 		libffi-dev \
 		liblzma-dev \
@@ -67,6 +66,9 @@ go-packages:
 rust-packages:
 	cargo install difftastic
 	cargo install vivid
+
+snap-packages:
+	sudo snap install go --classic
 
 pipx-packages:
 	pipx install ipython
