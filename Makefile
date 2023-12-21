@@ -71,6 +71,7 @@ rust-packages:
 pipx-packages:
 	pipx install ipython
 	pipx install hatch
+	pipx install poetry
 
 .PHONY: config
 config:
